@@ -14,4 +14,21 @@ function render(document: any) {
     console.log(document)
 }
 
+let numbers: number[] = [1, 2, 3];
 
+numbers.forEach(n => n.toString)
+
+
+// tuples 
+let user: [number, string] = [1, "Booker"]
+user.push(1);
+
+// enums
+const small = 1;
+const medium = 2;
+const large = 3;
+
+//pascal naming convention
+const enum Size {Small = 1, Medium , Large};
+let mySize: Size = Size.Medium;
+console.log(mySize);
