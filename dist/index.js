@@ -40,4 +40,14 @@ function kgToLbs(weight) {
 }
 kgToLbs(10);
 kgToLbs('10kg');
+let textBox = {
+    drag: () => { },
+    resize: () => { }
+};
+let quantity = 100;
+function greet(name) {
+    console.log(name.toLocaleUpperCase());
+}
+;
+greet('Booker');
 //# sourceMappingURL=index.js.map
