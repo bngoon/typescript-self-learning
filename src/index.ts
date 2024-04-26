@@ -119,4 +119,8 @@ let customer = getCustomer(1);
   console.log(customer?.birthday?.getFullYear());
 
 
-  
+  console.log("hello world")
+
+  console.log(employee)
+
+  console.log(`hello my name is ${employee.name}`)

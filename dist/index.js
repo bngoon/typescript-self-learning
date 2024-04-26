@@ -1,4 +1,5 @@
 "use strict";
+var _a;
 console.log("hello world");
 let age = 20;
 if (age < 50)
@@ -57,5 +58,8 @@ function getCustomer(id) {
     return id === 0 ? null : { birthday: new Date() };
 }
 let customer = getCustomer(1);
-console.log(customer === null || customer === void 0 ? void 0 : customer.birthday);
+console.log((_a = customer === null || customer === void 0 ? void 0 : customer.birthday) === null || _a === void 0 ? void 0 : _a.getFullYear());
+console.log("hello world");
+console.log(employee);
+console.log(`hello my name is ${employee.name}`);
 //# sourceMappingURL=index.js.map
